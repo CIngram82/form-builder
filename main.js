@@ -94,7 +94,6 @@ let formData = [
 // -------- Your Code Goes Below this Line --------
 
 let targetForFields = document.getElementById("fields");
-
 for (let i = 0; i < formData.length; i++) {
   let firstAdd;
   if (formData[i].type === "select") {
